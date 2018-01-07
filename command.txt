@@ -60,6 +60,8 @@ $ git reset HEAD file
 
 $ cat flie # 读取 file这个文件的内容。
 
+# 将工作区中的文件删除(注意一点：删除的文件，必须 要使用git commit -m 才能在版本库中生效)；
+$ git rm file # 将文件flie从工作区删除。
 
 
 
