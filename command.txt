@@ -52,9 +52,11 @@ $ git reset --hard HEAD^
 # 变回到上上的版本的命令是：
 $ git reset --hard HEAD^^ # 或者是 $ git reset --hard HEAD~2
 
-# 将文件在工作区的修改全部撤销。
+# 将文件在工作区的修改全部撤销（修改还未放到缓存区 stage）：
 $ git checkout -- file
 
+# 将已经放入缓存区的修改，撤销到工作区：
+$ git reset HEAD file
 
 
 
