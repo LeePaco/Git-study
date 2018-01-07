@@ -75,12 +75,38 @@ $ git push -u origin master # 第一次推送master要使用-u的参数。
 # 后续本地提交 推送则不需要 -u的参数：
 $ git push origin master
 
+# 从Github 远程克隆（git clone）仓库到本地的命令：
+$ git clone git@github.com:LeePaco/gitskills.git
 
+========================
+# 分支的相关命令说明：
 
+# 创建分支 dev
+$ git branch dev
 
+# 切换分支到 dev
+$ git checkout dev
 
+# 创建分支+切换分支到 dev
+$ git checkout -b dev  #-b的参数表示创建并切换
 
+# 查看当前分支
+$ git branch
 
+# 合并分支到dev
+$ git merge dev
+
+# 删除分支
+$ git branch -d dev
+
+# 查看分支合并图
+$ git log --graph
+
+# 读取入文本文件并编辑：
+$ vi <file>
+
+# 退出文本文件：
+：wq
 
 
 
