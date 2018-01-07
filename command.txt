@@ -58,6 +58,8 @@ $ git checkout -- file
 # 将已经放入缓存区的修改，撤销到工作区：
 $ git reset HEAD file
 
+$ cat flie # 读取 file这个文件的内容。
+
 
 
 
